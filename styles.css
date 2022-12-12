@@ -1,0 +1,104 @@
+/* Place your CSS styles in this file */
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+
+#footer a {
+    color: white;
+    padding: 10px;
+}
+#footer {
+    background-color:black;
+}
+#footer.link {
+    padding: 10px;
+}
+ .image-card {
+  position: relative;
+  text-align:left;
+  color: black;
+  overflow: hidden;
+}
+
+.image-card > .image-text {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.image-card img {
+    border-radius: 3%;
+}
+
+.image-card-booking {
+    position: relative;
+    text-align:left;
+    color: black;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-card-booking > .image-text {
+  position: absolute;
+  top: 16px;
+  left: 200px;
+}
+
+.image-card-booking img {
+    width:35%; 
+    height: 200px;
+}
+
+.image-card-booking p.button {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px 2px 2px;
+}
+.image-card-booking p.price{
+    position: absolute;
+    bottom: 8px;
+    left: 200px;
+}
+
+.hotel {
+    position: relative;
+}
+.hotel p.button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px 2px 2px;
+    width:35%;
+    position: absolute;
+    left: 33%;
+}
+
+div.scroll {
+        background-color: #f7f7f7;
+        height: 500px;
+        overflow: auto;
+        text-align: justify;
+        padding: 20px;
+}
+
+.faq {
+    border-bottom: gray solid 1px;
+}
