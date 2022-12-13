@@ -24,6 +24,7 @@ h1 {
   text-align:left;
   color: black;
   overflow: hidden;
+  margin-top: 10px;
 }
 
 .image-card > .image-text {
